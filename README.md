@@ -25,45 +25,45 @@
 
 2. **Set Up a Virtual Environment:**
 
-Create and activate a Python virtual environment:
+    Create and activate a Python virtual environment:
 
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+        python -m venv env
+        source env/bin/activate  # On Windows use `env\Scripts\activate`
 
 3. **Install Required Libraries:**
 
-Install the necessary Python packages:
+    Install the necessary Python packages:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4. **Set Up Environment Variables:**
 
-Create a .env file in the project root directory and add your Watson NLP API credentials:
+    Create a .env file in the project root directory and add your Watson NLP API credentials:
 
-    WATSON_API_KEY=your_watson_api_key_here
-    WATSON_URL=your_watson_service_url_here
+        WATSON_API_KEY=your_watson_api_key_here
+        WATSON_URL=your_watson_service_url_here
 
 5. **Run Unit Tests:**
 
-Execute unit tests to ensure the application is functioning correctly:
+    Execute unit tests to ensure the application is functioning correctly:
 
-    python -m unittest discover tests
+        python -m unittest discover tests
 
 6. **Perform Static Code Analysis:**
 
-Run static code analysis tools to check for code quality and adherence to best practices:
+    Run static code analysis tools to check for code quality and adherence to best practices:
 
-    pylint server.py
+        pylint server.py
 
 7. **Run the Application:**
 
-Start the Flask web application:
+    Start the Flask web application:
 
-    flask run
+        flask run
 
 8. **Access the Application:**
 
-Open your web browser and navigate to http://localhost:5000 to interact with the VibeVisor sentiment analysis tool.
+    Open your web browser and navigate to http://localhost:5000 to interact with the VibeVisor sentiment analysis tool.
 
 ## Usage
 
